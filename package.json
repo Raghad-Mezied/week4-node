@@ -1,26 +1,21 @@
 {
-  "name": "week4-node",
+  "name": "node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Raghad-Mezied/week4-node.git"
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": ""
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Raghad-Mezied/week4-node/issues"
-  },
-  "homepage": "https://github.com/Raghad-Mezied/week4-node#readme",
   "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
-    "nodemon": "^2.0.15"
+    "eslint": "^8.22.0",
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35"
   }
 }
